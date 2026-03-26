@@ -6,7 +6,7 @@ import pyaudio
 from faster_whisper import WhisperModel
 
 # config
-MIC_INDEX = 2
+MIC_INDEX = None # <------- CONFIGURE YOUR MIC INDEX HERE (or leave as None for system default)
 IGNORED_PHRASES = {
     "you", "thank you", "thanks", "bye", "goodbye", 
     "subtitle by", "amara.org", "subtitles"
