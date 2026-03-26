@@ -1,0 +1,37 @@
+/* style.css (Shrink-to-Fit Style) */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+body {
+    font-family: 'Fredoka One', cursive, sans-serif;
+    margin: 0;
+    padding: 20px;
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden; /* important: prevents flash of scrollbars */
+    color: white;
+}
+
+#message-container {
+    background-color: transparent;
+    padding: 0;
+    font-size: 24px; /* starting base font size */
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+
+#message-container.visible {
+    opacity: 1;
+}
+
+#char-name {
+    font-size: 1.1em; /* relative to the container's font size */
+    font-weight: bold;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+#message-text {
+    font-size: 0.9em; /* relative to the container's font size */
+    font-weight: normal;
+    margin-top: 5px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}

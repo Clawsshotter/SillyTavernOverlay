@@ -1,0 +1,17 @@
+{
+  "name": "sillytavern-overlay",
+  "version": "1.0.0",
+  "description": "Desktop overlay for Sillytavern",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "tsumdev",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^39.1.0"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  }
+}

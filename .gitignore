@@ -1,0 +1,35 @@
+# ========================
+# Node.js / Electron
+# ========================
+node_modules/
+npm-debug.log*
+/dist
+/build
+/*.log
+
+# ========================
+# Python & Audio Engine
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# ========================
+# Whisper / AI Models
+# ========================
+**/.cache/huggingface/
+**/.cache/whisper/
+*.bin
+*.pt
+
+# ========================
+# IDE & OS Files
+# ========================
+.vscode/
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
